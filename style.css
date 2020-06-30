@@ -110,7 +110,7 @@
 	width: 1440px;
 	height: 377px;
 	background: #45493b;
-	opacity: 0.8;
+	opacity: 0.5;
 }
 .content .new-choices .choice1{
 	width: 310px;
@@ -206,7 +206,7 @@
 	width: 1080px;
 	height: 208px;
 	background-color: #45493b;
-	opacity:0.8;
+	opacity:0.5;
 }
 .content .order .title h2{
 	text-align: center;
@@ -239,7 +239,7 @@
 	height: 274px;
 	float: right;
 	background-color: #45493b;
-	opacity:0.8;
+	opacity:0.5;
 	position: relative;
 }
 .content .order .order-choices .box1 .box-content h4{
@@ -279,7 +279,7 @@
 	height: 274px;
 	float: left;
 	background-color: #45493b;
-	opacity:0.8;
+	opacity:0.5;
 	position: relative;
 }
 .content .order .order-choices .box2 .box-content h4{
@@ -319,7 +319,7 @@
 	width: 1440px;
 	height: 400px;
 	background-color: #45493b;
-	opacity:0.8;
+	opacity:0.5;
 }
 .content .introduction h4{
 	text-align: center;
@@ -354,7 +354,7 @@
 	width: 1440px;
 	height: 603px;
 	background-color: #45493b;
-	opacity:0.8;
+	opacity:0.5;
 	margin-top: -33PX;
 }
 .content .discover .discover-title{
@@ -443,36 +443,157 @@
 }
 .content .booking{
 	width: 1440px;
-	height: 453px;
+	height: 454px;
+	position: static;
 }
 .content .booking h1{
 	text-align: center;
-	padding-top: 37px;
 	font-family: 'Yellowtail', cursive;
 	letter-spacing: 2px;
 	font-size: 55px;
 	color: white;
-}
-form{
-	
+	margin-top: 25px;
 }
 .content .booking .col1{
 	width: 240px;
-	height: 453px;
-	margin-left: 100px;
+	height: 300px;
+	margin-left: 185px;
+	float: left;
 }
 .col1 p{
 	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-top: -15px;
+}
+.col1 h5{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-top: 35px;
+}
+.content .booking .col2{
+	width: 240px;
+	height: 300px;
+	margin-left: 185px;
+	float: left;
+}
+.col2 p{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-top: -15px;
+}
+.col2 h5{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-top: 35px;
+}
+.content .booking .col3{
+	width: 240px;
+	height: 300px;
+	margin-left: 185px;
+	float: left;
+}
+.col3 p{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-top: -15px;
+}
+.col3 h5{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-top: 35px;
+}
+form select{
+	width: 240px;
+	height: 30px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 6px;
+	text-decoration-color: white;
+}
+form input{
+	width: 240px;
+	height: 30px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 6px;
+	margin-top: -15px;
+}
+form select{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 6px;
+}
+form placeholder{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+::placeholder{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: white;
+}
+form select option{
+	background: none;
+	border: 2px solid white;
+	border-radius: 6px;
+	color: black;
+}
+#ppl{
+	color: white;
+}
+#name{
+	color: white;
+}
+#date{
+	color: white;
+}
+#email{
+	color: white;
+}
+#time{
+	color: white;
+}
+#phone{
+	color: white;
+}
+#submit{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	width: 248px;
+	height: 35px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 6px;
+	margin-bottom: -10px;
 }
 .content .book-pic{
 	width: 1440px;
 	height: 864px;
+	
 }
 .content .new-menu{
 	width: 1440px;
 	height: 818px;
 	background-color: #45493b;
-	opacity:0.8;
+	opacity:0.5;
 	margin-top: -40px;
 }
 .content .new-menu .new-menu-title{
@@ -629,10 +750,10 @@ form{
 }
 .footer{
 	width: 1440px;
-	height: 322px;
+	height: 294px;
 	background-color: #45493b;
-	opacity:0.8;
-	margin-top: -50px;
+	opacity:0.5;
+	margin-top: -30px;
 }
 .footer .about{
 	width: 342px;
