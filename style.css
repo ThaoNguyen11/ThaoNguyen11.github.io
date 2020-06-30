@@ -33,8 +33,8 @@
 	padding-left: 35px;
 }
 .header .banner .logo img{
-	top: 166px;
-	left: 887px;
+	margin-top: 166px;
+	margin-left: 887px;
 }
 .header .banner .banner-content{
 	width: 553px;
@@ -57,7 +57,7 @@
 	line-height: 0;
 	letter-spacing: 4px;
 }
-.header .btn-shop{
+.header .btn{
 	margin-top: 666px;
 	margin-left: 903px;
 	position: absolute;
@@ -445,6 +445,14 @@
 	width: 1440px;
 	height: 453px;
 }
+.content .booking h1{
+	text-align: center;
+	padding-top: 37px;
+	font-family: 'Yellowtail', cursive;
+	letter-spacing: 2px;
+	font-size: 55px;
+	color: white;
+}
 form{
 	
 }
@@ -454,7 +462,7 @@ form{
 	margin-left: 100px;
 }
 .col1 p{
-	text-decoration-color: white;
+	color: white;
 }
 .content .book-pic{
 	width: 1440px;
@@ -535,12 +543,14 @@ form{
 .content .new-menu .menu-option .menu-opt .menu-content h3{
 	margin-left: 22px;
 	margin-right: 22px;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 0px;
-	padding-top: 5px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration-color: #878787;
 	letter-spacing: 2px;
+	padding-bottom: 10px;
+	border-bottom: 8px solid #9baf6d;
+	display: inline-block;
 }
 .content .social{
 	width: 1440px;
@@ -552,13 +562,14 @@ form{
 	font-size: 48px;
 	color: #9baf6d;
 	letter-spacing: 20px;
+	padding-top: 10px;
 }
 .content .social p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	color: #9baf6d;
 	letter-spacing: 2px;
-	padding-top: 15px;
+	margin-top: -45px;
 	margin-left: 375px;
 	margin-right: 375px;
 	text-align: center;
@@ -571,6 +582,14 @@ form{
 	margin-left: 375px;
 	margin-right: 375px;
 	text-align: center;
+	margin-top: 5px;
+}
+.content .social .social-icon{
+	width: 370px;
+	margin-left: 525px;
+	margin-right: 545px;
+	float: left;
+	align-content: center;
 }
 .fa{
   	padding: 15px;
@@ -581,24 +600,90 @@ form{
   	border-radius: 50%;
 	margin-top: 10px;
 	margin-left: 20px;
+	float: left;
 }
 .fa-facebook {
-  background:white;
-  color: black;
+  	background:white;
+  	color: black;
+	float: left;
 }
 .fa-twitter {
-   background:white;
-  color: black;
+   	background:white;
+  	color: black;
+	float: left;
 }
-.fa-google {
+.fa-google-plus {
     background:white;
-  color: black;
+ 	color: black;
+	float: left;
 }
 .fa-pinterest-p {
     background:white;
-  color: black;
+  	color: black;
+	float: left;
 }
-.fa-linkedin {
+.fa-instagram {
     background:white;
-  color: black;
+  	color: black;
+	float: left;
+}
+.footer{
+	width: 1440px;
+	height: 322px;
+	background-color: #45493b;
+	opacity:0.8;
+	margin-top: -50px;
+}
+.footer .about{
+	width: 342px;
+	height: 230px;
+	margin-left: 180px;
+	padding-top: 68px;
+	float: left;
+}
+.footer .about h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #e8e8e8;
+	letter-spacing: 2px;
+}
+.footer .about p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #e8e8e8;
+	padding-top: 33px;
+}
+.footer .vertical-about-cover{
+	width: 815px;
+	height: 230px;
+	padding-top: 68px;
+	float: right;
+}
+.footer .vertical-about-cover .vertical-about{
+	width: 82px;
+	height: 230px;
+	float: left;
+	margin-left: 105px;
+}
+.footer .vertical-about-cover .vertical-about h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #e8e8e8;
+	letter-spacing: 2px;
+	margin-bottom: 54px;
+}
+.footer .vertical-about-cover .vertical-about ul{
+	list-style: none;
+}
+.footer .vertical-about-cover .vertical-about ul li{
+	display: inline-block;
+}
+.footer .vertical-about-cover .vertical-about ul li a{
+	color: #e8e8e8;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	letter-spacing: 2px;
+	margin-left: -38px;
+	line-height: 10px;
 }
